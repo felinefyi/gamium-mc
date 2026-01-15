@@ -1,2 +1,1 @@
-# gamium-mc
-brainium gamium minecraft server
+`gamium mining company`
