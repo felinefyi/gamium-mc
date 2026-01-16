@@ -106,3 +106,36 @@ essential commands has been installed, which provides access to several utility 
 /home tp                   teleport to your personal home
 /spawn . . . . . . . . . . teleport to spawn
 ```
+
+`troubleshooting`
+
+need more perf? here's a prioritized list of frame-boosting recommendations:
+
+1. lower your shader preset: `video settings` > `shader packs` (top-right) > `shader pack settings` > `preset` (highest impact)
+
+- it is recommended to do this from the main menu to avoid recompilation
+- alternatively, disable shaders entirely. this will provide the highest possible FPS
+
+2. disable any high-res (32x or higher) resource packs (not installed by default): `resource packs` > use the large arrow icon to move back to the 'available' list (high impact)
+
+- don't worry about packs marked as 'incompatible', this is almost always an over-assessment by minecraft when loading legacy packs. trust the pack listing by the developer.
+
+3. if `voxy` is enabled, lower `voxy` quality: set `video settings` > `voxy` > `pixels^2 of subdivision size` to 128/256 (medium impact)
+
+- alternatively, disable `voxy` and `bobby` entirely
+
+4. reduce your render ranges:
+
+- `video settings` > `general` > `render distance`: 8 is reasonable (medium impact)
+- `video settings` > `general` > `simulation distance`: 12 is default, would not reduce past 6 (low impact)
+
+5. lower `video settings` > `quality` options:
+
+- `graphics`: fast
+- `clouds`: off
+- `weather`: fast
+- `leaves`: fast
+- `particles`: decreased
+- `smooth lighting`: disabled
+
+if you are still having trouble with framerate (or had to go more than 2 deep into this list), message me directly and i will provide direct support to improve your experience.
