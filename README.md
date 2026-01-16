@@ -25,6 +25,14 @@ however, playing with the modpack is highly recommended for the following:
 - preconfigured multiplayer menu
 - no chat reports client support
 
+`gamerules`
+
+- doMobGriefing (creeper explosions, enderman block displacement) is currently disabled, but planned to re-enable after a period to allow players to settle
+- game difficulty is set to normal. this means curing zombie villagers is not guaranteed, but mobs do less damage
+- keepInventory is disabled. there is no tombstone mod installed. see `useful commands` for ways to help yourself survive
+
+these are all subject to change at the whim of the spirit of fun.
+
 `configuration`
 
 the pack comes preinstalled with several mods to improve your experience, including proximity voice chat, shaders and LoD rendering, and performance improvements.
