@@ -6,6 +6,14 @@
 2. install [prism launcher](https://prismlauncher.org/download/windows/) and configure it with your minecraft account
 3. right click > create instance, import the modpack from [this repo](https://github.com/felinefyi/gamium-mc/raw/refs/heads/main/Brainium.zip)
 
+`right click` > `edit` to browse instance settings and make it your own -- entirely optional, of course. in particular **you may want to enable/add mods from the `mods` menu**,
+enable/install `resource packs` (higher resolution textures significantly increase render cost!), or modify `settings` > `java` custom parameters.
+i have included the recommended set of parameters for java 11+ as detailed in [this post](https://github.com/brucethemoose/Minecraft-Performance-Flags-Benchmarks?tab=readme-ov-file#base-java-flags).
+
+if you have issues launching, you may need to adjust these, but they should work with any modern adoptium temurin installation. note that prism launcher has separate settings for the `Xmx` and `Xms` flags which are configured upon installing prism.
+the pack comes with `4GB Xmx` (maximum allocation) preconfigured; if you have poor performance when rendering large areas, you can increase it to up to 80% of your available memory. you may want to close any open browsers if you approach the limit.
+if you are particularly concerned about performance, it is recommended to match both `Xmx` and `Xms` to avoid having to dynamically allocate more memory while playing.
+
 `about`
 
 the server aims to be a mostly faithful experience with a few general enchancements and quality-of-life improvements, primarily centered around world generation.
