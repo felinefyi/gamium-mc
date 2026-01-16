@@ -41,8 +41,8 @@ here is a summary of the disabled mods, what they do, and why they are disabled:
 
 `graphics`
 
-a fork of photon shaders with support for voxy are preinstalled. shader options are available via options > video settings > shader packs (top right).
-the shader pack settings menu has many available tweaks, but i recommend selecting a preset that suits your hardware.
+a fork of photon shaders with support for voxy are preinstalled. shader options are available via `options` > `video settings` > `shader packs` (top right).
+the `shader pack settings` menu has many available tweaks, but i recommend selecting a preset that suits your hardware.
 
 if you do make any modifications, here are some useful notes to keep in mind:
 
