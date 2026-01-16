@@ -65,6 +65,13 @@ if you do make any modifications, here are some useful notes to keep in mind:
 - `fog` > `border fog` should be `off` to avoid occluding distant voxy chunks
 - `sky` > `clouds` > `scale` has been reduced to 5x to increase cloud height, since low clouds cause some visual glitches at high altitudes
 
+some notes about resource packs:
+
+- faithful32 is installed but disabled by default, since quadrupling texture resolution can be very heavy on performance. enable it from the prism instance `edit` > `resource packs` menu.
+- resource packs take priority from top to bottom, so including faithful on top of fusion can lead to some minor visual conflicts, e.g. fusion's 16x block transitions vs faithful.
+- if you enable faithful32, use either emissive or emissive+ores according to your preferences, and remove fusion emissive ores if you were using it.
+- bettergrass is **not** compatible with voxy, so is not active by default, but looks great otherwise. you can ignore the 'incompatible' warning.
+
 `useful keybinds`
 
 i recommend visiting the keybinds menu to remap to your preferences. a few modifications have already been made, but all other binds are vanilla defaults.
