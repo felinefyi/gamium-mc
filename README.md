@@ -61,11 +61,30 @@ if you do make any modifications, here are some useful notes to keep in mind:
 
 i recommend visiting the keybinds menu to remap to your preferences. a few modifications have already been made, but all other binds are vanilla defaults.
 
+vanilla binds refresher:
+
+```
+WASD  move
+E     inventory
+Tab   player list
+Ctrl  sprint
+Shift crouch (prevents walking off ledges)
+F     swap offhand
+Q     drop item
+T     open chat
+```
+
+custom binds:
+
 ```
 V  set up voice chat
 C  toggle mute/unmute
+R  toggle push-to-talk
+Z  zoom (requires telescope)
 M  open world map
 \  toggle minimap
+[] zoom minimap
++  quick waypoint
 ```
 
 `useful commands`
