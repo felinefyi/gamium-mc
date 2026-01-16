@@ -1,5 +1,3 @@
-`gamium mining company`
-
 <img width="2541" height="1390" alt="image" src="https://github.com/user-attachments/assets/59c1db0c-ac0c-49e0-93a0-c3e3049ca0ec" />
 
 `setting up`
@@ -64,9 +62,9 @@ M  open world map
 essential commands has been installed, which provides access to several utility functions. here is a brief list of them:
 
 ```
-/nickname set <nickname> . . set a nickname for yourself
-/tpa <playername>            send a request to teleport yourself to a player (they must accept)
-/home set  . . . . . . . . . set your personal home
-/home tp                     teleport to your personal home
-/spawn . . . . . . . . . . . teleport to spawn
+/nickname set <nickname> . set a nickname for yourself
+/tpa <playername>          send a request to teleport yourself to a player (they must accept)
+/home set  . . . . . . . . set your personal home
+/home tp                   teleport to your personal home
+/spawn . . . . . . . . . . teleport to spawn
 ```
