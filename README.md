@@ -64,9 +64,9 @@ M  open world map
 essential commands has been installed, which provides access to several utility functions. here is a brief list of them:
 
 ```
-/nickname set <nickname> . . . set a nickname for yourself
-/tpa <playername>              send a request to teleport yourself to a player (they must accept)
-/home set . . . . . . . . . .  set your personal home
-/home tp                       teleport to your personal home
-/spawn . . . . . . . . . . . . teleport to spawn
+/nickname set <nickname> . . set a nickname for yourself
+/tpa <playername>            send a request to teleport yourself to a player (they must accept)
+/home set  . . . . . . . . . set your personal home
+/home tp                     teleport to your personal home
+/spawn . . . . . . . . . . . teleport to spawn
 ```
