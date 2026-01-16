@@ -33,10 +33,10 @@ the pack comes preinstalled with several mods to improve your experience, includ
 not all mods are enabled by default: there are a few mods in the mod folder which have the `.disabled` extension added.
 simply remove this extension to enable them. here is a summary of the disabled mods, what they do, and why they are disabled:
 
-- voxy: LoD rendering, caches low-resolution data of terrain to render at great distances. highly experimental, water rendering is not supported with shaders. may slowly fill space on disk.
-- bobby: overrides server-side chunk render distance limit. unnecessary without voxy, incurs performance overhead
-- c2me: multi-threaded chunk loading. requires very modern java installation, experimental, but may make exploration smoother.
-- sound physics: applies audio effects like reverb and filters to in-game audio, including voice chat. rather expensive on cpu, effect can be jarring.
+- `voxy`: LoD rendering, caches low-resolution data of terrain to render at great distances. highly experimental, water rendering is not supported with shaders. may slowly fill space on disk.
+- `bobby`: overrides server-side chunk render distance limit. unnecessary without voxy, incurs performance overhead
+- `c2me`: multi-threaded chunk loading. requires very modern java installation, experimental, but may make exploration smoother.
+- `sound physics`: applies audio effects like reverb and filters to in-game audio, including voice chat. rather expensive on cpu, effect can be jarring.
 
 `graphics`
 
@@ -45,18 +45,18 @@ the shader pack settings menu has many available tweaks, but i recommend selecti
 
 if you do make any modifications, here are some useful notes to keep in mind:
 
-- fog > border fog should be `off` to avoid occluding distant voxy chunks
-- sky > clouds > scale has been reduced to 5x to increase cloud height, since low clouds cause some visual glitches at high altitudes
+- `fog` > `border fog` should be `off` to avoid occluding distant voxy chunks
+- `sky` > `clouds` > `scale` has been reduced to 5x to increase cloud height, since low clouds cause some visual glitches at high altitudes
 
 `useful keybinds`
 
 i recommend visiting the keybinds menu to remap to your preferences. a few modifications have already been made, but all other binds are vanilla defaults.
 
 ```
-V set up voice chat
-C: toggle mute/unmute
-M: open world map
-\: toggle minimap
+V  set up voice chat
+C  toggle mute/unmute
+M  open world map
+\  toggle minimap
 ```
 
 `useful commands`
