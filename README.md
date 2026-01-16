@@ -28,8 +28,11 @@ however, playing with the modpack is highly recommended for the following:
 `configuration`
 
 the pack comes preinstalled with several mods to improve your experience, including proximity voice chat, shaders and LoD rendering, and performance improvements.
+
 not all mods are enabled by default: there are a few mods in the mod folder which have the `.disabled` extension added.
-simply remove this extension to enable them. here is a summary of the disabled mods, what they do, and why they are disabled:
+simply remove this extension to enable them.
+
+here is a summary of the disabled mods, what they do, and why they are disabled:
 
 - `voxy`: LoD rendering, caches low-resolution data of terrain to render at great distances. highly experimental, water rendering is not supported with shaders. may slowly fill space on disk.
 - `bobby`: overrides server-side chunk render distance limit. unnecessary without voxy, incurs performance overhead
